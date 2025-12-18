@@ -12,7 +12,7 @@ const achievements = [
     platform: "LeetCode",
     rating: "Max: 1799 (Top 10%)",
     problems: "300+",
-    profile: "https://leetcode.com/u/Danish811/",
+    profile: "https://leetcode.com/u/sheikhd811/",
     highlight: "Consistent top 10% performance in contests",
   },
   {
