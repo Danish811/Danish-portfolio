@@ -117,7 +117,7 @@ export function ProjectsSection() {
                 {project.title}
               </h3>
 
-              <p className="text-foreground text-sm mb-4 leading-relaxed">{project.description}</p>
+              <p className="text-white text-sm mb-4 leading-relaxed">{project.description}</p>
 
               <div className="mb-4">
                 <h4 className="font-mono text-xs text-[hsl(var(--kali-green))] mb-2">Key Highlights:</h4>
@@ -125,7 +125,7 @@ export function ProjectsSection() {
                   {project.highlights.map((highlight, idx) => (
                     <li key={idx} className="flex items-start gap-2">
                       <span className="text-[hsl(var(--kali-green))] text-xs mt-1">▸</span>
-                      <span className="text-muted-foreground text-xs">{highlight}</span>
+                      <span className="text-gray-300 text-xs">{highlight}</span>
                     </li>
                   ))}
                 </ul>

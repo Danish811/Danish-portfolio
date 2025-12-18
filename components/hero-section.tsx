@@ -33,36 +33,36 @@ export function HeroSection() {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center px-4 pt-16">
       <div className="max-w-4xl w-full">
-        <div className="border-2 border-[hsl(var(--vibrant-purple))/0.3] rounded-lg p-8 md:p-12 bg-card">
+        <div className="border-2 border-[hsl(var(--kali-green))/0.3] rounded-lg p-8 md:p-12 bg-card">
           <div className="mb-6">
-            <span className="font-mono text-[hsl(var(--vibrant-purple))] text-sm">danish@kali:~$ whoami</span>
+            <span className="font-mono text-[hsl(var(--kali-green))] text-sm">danish@kali:~$ whoami</span>
           </div>
 
-          <h1 className="font-mono text-4xl md:text-6xl font-bold text-[hsl(var(--vibrant-purple))] mb-6">
+          <h1 className="font-mono text-4xl md:text-6xl font-bold text-[hsl(var(--kali-green))] mb-6">
             {displayText}
             {showCursor && <span className="animate-pulse">_</span>}
           </h1>
 
           <div className="mb-8 space-y-3">
-            <p className="font-mono text-xl md:text-2xl text-foreground">
-              <span className="text-[hsl(var(--vibrant-purple))]">$</span> AI/ML Developer
+            <p className="font-mono text-xl md:text-2xl text-white">
+              <span className="text-[hsl(var(--kali-green))]">$</span> AI/ML Developer
             </p>
-            <p className="font-mono text-xl md:text-2xl text-foreground">
-              <span className="text-[hsl(var(--vibrant-purple))]">$</span> Competitive Programmer
+            <p className="font-mono text-xl md:text-2xl text-white">
+              <span className="text-[hsl(var(--kali-green))]">$</span> Competitive Programmer
             </p>
-            <p className="font-mono text-xl md:text-2xl text-foreground">
-              <span className="text-[hsl(var(--vibrant-purple))]">$</span> Linux Enthusiast
+            <p className="font-mono text-xl md:text-2xl text-white">
+              <span className="text-[hsl(var(--kali-green))]">$</span> Linux Enthusiast
             </p>
           </div>
 
           <div className="mb-8 space-y-2">
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-white leading-relaxed">
               {">"} Building intelligent AI systems with LangChain, RAG pipelines, and fine-tuned LLMs
             </p>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-white leading-relaxed">
               {">"} 900+ algorithmic problems solved • 3 Star CodeChef • Top 10% LeetCode
             </p>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-white leading-relaxed">
               {">"} Linux security tools, network programming, and system-level development
             </p>
           </div>
@@ -70,7 +70,7 @@ export function HeroSection() {
           <div className="flex flex-wrap gap-4">
             <Button
               asChild
-              className="bg-[hsl(var(--vibrant-purple))] text-white hover:bg-[hsl(var(--vibrant-purple))/0.9] font-mono font-semibold"
+              className="bg-[hsl(var(--kali-green))] text-black hover:bg-[hsl(var(--kali-green))/0.9] font-mono font-semibold"
             >
               <a href="https://github.com/Danish811" target="_blank" rel="noopener noreferrer">
                 <Github className="w-4 h-4 mr-2" />
@@ -80,7 +80,7 @@ export function HeroSection() {
             <Button
               asChild
               variant="outline"
-              className="border-[hsl(var(--vibrant-purple))] text-[hsl(var(--vibrant-purple))] hover:bg-[hsl(var(--vibrant-purple))/0.1] font-mono bg-transparent"
+              className="border-[hsl(var(--kali-green))] text-[hsl(var(--kali-green))] hover:bg-[hsl(var(--kali-green))/0.1] font-mono bg-transparent"
             >
               <a href="https://linkedin.com/in/mohammad-danish-sheikh" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-4 h-4 mr-2" />
@@ -90,7 +90,7 @@ export function HeroSection() {
             <Button
               asChild
               variant="outline"
-              className="border-[hsl(var(--vibrant-purple))] text-[hsl(var(--vibrant-purple))] hover:bg-[hsl(var(--vibrant-purple))/0.1] font-mono bg-transparent"
+              className="border-[hsl(var(--kali-green))] text-[hsl(var(--kali-green))] hover:bg-[hsl(var(--kali-green))/0.1] font-mono bg-transparent"
             >
               <a href="mailto:Sheikhd811@gmail.com">
                 <Mail className="w-4 h-4 mr-2" />
@@ -99,13 +99,13 @@ export function HeroSection() {
             </Button>
           </div>
 
-          <div className="mt-8 pt-6 border-t border-[hsl(var(--vibrant-purple))/0.2]">
+          <div className="mt-8 pt-6 border-t border-[hsl(var(--kali-green))/0.2]">
             <div className="flex flex-wrap gap-6 text-sm font-mono">
               <a
                 href="https://www.codechef.com/users/danish_811"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-[hsl(var(--vibrant-purple))] transition-colors flex items-center gap-2 text-muted-foreground"
+                className="hover:text-[hsl(var(--kali-green))] transition-colors flex items-center gap-2 text-white"
               >
                 <Code2 className="w-4 h-4" />
                 CodeChef
@@ -114,7 +114,7 @@ export function HeroSection() {
                 href="https://leetcode.com/u/Danish_811/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-[hsl(var(--vibrant-purple))] transition-colors flex items-center gap-2 text-muted-foreground"
+                className="hover:text-[hsl(var(--kali-green))] transition-colors flex items-center gap-2 text-white"
               >
                 <Terminal className="w-4 h-4" />
                 LeetCode
@@ -123,7 +123,7 @@ export function HeroSection() {
                 href="https://codeforces.com/profile/Danish_811"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-[hsl(var(--vibrant-purple))] transition-colors flex items-center gap-2 text-muted-foreground"
+                className="hover:text-[hsl(var(--kali-green))] transition-colors flex items-center gap-2 text-white"
               >
                 <Code2 className="w-4 h-4" />
                 Codeforces

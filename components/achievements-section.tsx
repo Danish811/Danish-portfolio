@@ -48,16 +48,16 @@ export function AchievementsSection() {
 
               <div className="space-y-2 mb-4">
                 <p className="font-mono text-sm">
-                  <span className="text-muted-foreground">Rating:</span>{" "}
-                  <span className="text-foreground font-semibold">{achievement.rating}</span>
+                  <span className="text-gray-400">Rating:</span>{" "}
+                  <span className="text-white font-semibold">{achievement.rating}</span>
                 </p>
                 <p className="font-mono text-sm">
-                  <span className="text-muted-foreground">Problems Solved:</span>{" "}
-                  <span className="text-foreground font-semibold">{achievement.problems}</span>
+                  <span className="text-gray-400">Problems Solved:</span>{" "}
+                  <span className="text-white font-semibold">{achievement.problems}</span>
                 </p>
               </div>
 
-              <p className="text-xs text-muted-foreground mb-4 leading-relaxed">{achievement.highlight}</p>
+              <p className="text-xs text-gray-300 mb-4 leading-relaxed">{achievement.highlight}</p>
 
               <a
                 href={achievement.profile}
@@ -77,7 +77,7 @@ export function AchievementsSection() {
             <Trophy className="w-8 h-8 text-[hsl(var(--kali-green))]" />
             <div>
               <h3 className="font-mono text-xl font-bold text-[hsl(var(--kali-green))] mb-3">Hackathon Achievement</h3>
-              <p className="text-foreground mb-2">
+              <p className="text-white mb-2">
                 <span className="font-mono text-[hsl(var(--kali-green))]">Team Naive-Bees</span> positioned among{" "}
                 <span className="font-bold text-[hsl(var(--kali-green))]">Top 10 ranks</span> in DevSprint 1.0 Hackathon
               </p>
@@ -94,19 +94,19 @@ export function AchievementsSection() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div>
               <p className="font-mono text-3xl font-bold text-[hsl(var(--kali-green))]">900+</p>
-              <p className="text-sm text-muted-foreground mt-1">Problems Solved</p>
+              <p className="text-sm text-gray-400 mt-1">Problems Solved</p>
             </div>
             <div>
               <p className="font-mono text-3xl font-bold text-[hsl(var(--kali-green))]">3</p>
-              <p className="text-sm text-muted-foreground mt-1">Platforms Mastered</p>
+              <p className="text-sm text-gray-400 mt-1">Platforms Mastered</p>
             </div>
             <div>
               <p className="font-mono text-3xl font-bold text-[hsl(var(--kali-green))]">Top 2%</p>
-              <p className="text-sm text-muted-foreground mt-1">Contest Rank</p>
+              <p className="text-sm text-gray-400 mt-1">Contest Rank</p>
             </div>
             <div>
               <p className="font-mono text-3xl font-bold text-[hsl(var(--kali-green))]">1608</p>
-              <p className="text-sm text-muted-foreground mt-1">Max Rating</p>
+              <p className="text-sm text-gray-400 mt-1">Max Rating</p>
             </div>
           </div>
         </div>

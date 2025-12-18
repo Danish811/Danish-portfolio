@@ -26,7 +26,7 @@ export function SkillsSection() {
               {skills.languages.map((skill) => (
                 <span
                   key={skill}
-                  className="px-3 py-1 bg-[hsl(var(--kali-green))/0.1] border border-[hsl(var(--kali-green))/0.3] rounded font-mono text-sm text-foreground"
+                  className="px-3 py-1 bg-[hsl(var(--kali-green))/0.1] border border-[hsl(var(--kali-green))/0.3] rounded font-mono text-sm text-white"
                 >
                   {skill}
                 </span>
@@ -44,7 +44,7 @@ export function SkillsSection() {
               {skills.frameworks.map((skill) => (
                 <span
                   key={skill}
-                  className="px-3 py-1 bg-[hsl(var(--kali-green))/0.1] border border-[hsl(var(--kali-green))/0.3] rounded font-mono text-sm text-foreground"
+                  className="px-3 py-1 bg-[hsl(var(--kali-green))/0.1] border border-[hsl(var(--kali-green))/0.3] rounded font-mono text-sm text-white"
                 >
                   {skill}
                 </span>
@@ -62,7 +62,7 @@ export function SkillsSection() {
               {skills.tools.map((skill) => (
                 <span
                   key={skill}
-                  className="px-3 py-1 bg-[hsl(var(--kali-green))/0.1] border border-[hsl(var(--kali-green))/0.3] rounded font-mono text-sm text-foreground"
+                  className="px-3 py-1 bg-[hsl(var(--kali-green))/0.1] border border-[hsl(var(--kali-green))/0.3] rounded font-mono text-sm text-white"
                 >
                   {skill}
                 </span>
@@ -75,7 +75,7 @@ export function SkillsSection() {
         <div className="mt-12 grid md:grid-cols-3 gap-6">
           <div className="border border-[hsl(var(--kali-green))/0.3] rounded-lg p-6 bg-card/50">
             <h4 className="font-mono text-lg font-bold text-[hsl(var(--kali-green))] mb-3">Machine Learning</h4>
-            <p className="text-foreground text-sm leading-relaxed">
+            <p className="text-gray-300 text-sm leading-relaxed">
               Deep expertise in RAG pipelines, LLM fine-tuning (LoRA), LangChain agents, and vector databases. Built
               production-ready AI systems with Llama3, BERT, and custom ML models.
             </p>
@@ -83,7 +83,7 @@ export function SkillsSection() {
 
           <div className="border border-[hsl(var(--kali-green))/0.3] rounded-lg p-6 bg-card/50">
             <h4 className="font-mono text-lg font-bold text-[hsl(var(--kali-green))] mb-3">Competitive Programming</h4>
-            <p className="text-foreground text-sm leading-relaxed">
+            <p className="text-gray-300 text-sm leading-relaxed">
               900+ problems solved across CodeChef (3 Star), LeetCode (1799 max), and Codeforces (Pupil). Top 2% in
               contests with strong algorithmic foundation.
             </p>
@@ -91,7 +91,7 @@ export function SkillsSection() {
 
           <div className="border border-[hsl(var(--kali-green))/0.3] rounded-lg p-6 bg-card/50">
             <h4 className="font-mono text-lg font-bold text-[hsl(var(--kali-green))] mb-3">Linux & Security</h4>
-            <p className="text-foreground text-sm leading-relaxed">
+            <p className="text-gray-300 text-sm leading-relaxed">
               Advanced Linux administration, network security with Scapy, built SYN flood protection firewall with
               iptables. Strong system-level programming skills.
             </p>
