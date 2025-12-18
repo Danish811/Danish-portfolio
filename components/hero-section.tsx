@@ -82,7 +82,7 @@ export function HeroSection() {
               variant="outline"
               className="border-[hsl(var(--kali-green))] text-[hsl(var(--kali-green))] hover:bg-[hsl(var(--kali-green))/0.1] font-mono bg-transparent"
             >
-              <a href="https://linkedin.com/in/danish-sheikh765" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com/in/mohammad-danish-sheikh" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-4 h-4 mr-2" />
                 LinkedIn
               </a>
@@ -102,7 +102,7 @@ export function HeroSection() {
           <div className="mt-8 pt-6 border-t border-[hsl(var(--kali-green))/0.2]">
             <div className="flex flex-wrap gap-6 text-sm font-mono">
               <a
-                href="https://www.codechef.com/users/danish811"
+                href="https://www.codechef.com/users/danish_811"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[hsl(var(--kali-green))] transition-colors flex items-center gap-2 text-white"
@@ -111,7 +111,7 @@ export function HeroSection() {
                 CodeChef
               </a>
               <a
-                href="https://leetcode.com/u/sheikhd811/"
+                href="https://leetcode.com/u/Danish_811/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[hsl(var(--kali-green))] transition-colors flex items-center gap-2 text-white"
@@ -120,7 +120,7 @@ export function HeroSection() {
                 LeetCode
               </a>
               <a
-                href="https://codeforces.com/profile/sheikhd811"
+                href="https://codeforces.com/profile/Danish_811"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[hsl(var(--kali-green))] transition-colors flex items-center gap-2 text-white"
